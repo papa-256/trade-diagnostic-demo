@@ -1,0 +1,54 @@
+{
+  "label": "SYNTHETIC / 合成数据",
+  "trade_count": 4,
+  "initial_balance": "1000",
+  "gross_pnl_total": "80",
+  "commission_total": "-7",
+  "swap_total": "0",
+  "net_pnl_total": "73",
+  "winning_net_total": "177",
+  "losing_net_total": "-104",
+  "profit_factor": "1.7019",
+  "profit_factor_note": null,
+  "win_rate": "50.0000%",
+  "max_closed_balance_drawdown": "104",
+  "max_closed_balance_drawdown_pct": "9.4718%",
+  "first_close": "2026-01-01T12:00:00+00:00",
+  "last_close": "2026-01-05T12:00:00+00:00",
+  "trades": [
+    {
+      "id": "S1",
+      "closed_at": "2026-01-01T12:00:00+00:00",
+      "net_pnl": "98",
+      "closed_balance": "1098",
+      "drawdown": "0"
+    },
+    {
+      "id": "S2",
+      "closed_at": "2026-01-02T12:00:00+00:00",
+      "net_pnl": "-63",
+      "closed_balance": "1035",
+      "drawdown": "63"
+    },
+    {
+      "id": "S3",
+      "closed_at": "2026-01-04T12:00:00+00:00",
+      "net_pnl": "-41",
+      "closed_balance": "994",
+      "drawdown": "104"
+    },
+    {
+      "id": "S4",
+      "closed_at": "2026-01-05T12:00:00+00:00",
+      "net_pnl": "79",
+      "closed_balance": "1073",
+      "drawdown": "25"
+    }
+  ],
+  "limitations": [
+    "Drawdown uses balances after each close, not floating equity.",
+    "The date span is not a count of trading days.",
+    "Cost fields are included as supplied; their completeness is not independently verified.",
+    "No backtest, profitability claim, or future-return estimate is made."
+  ]
+}
